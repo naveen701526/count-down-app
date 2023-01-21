@@ -1,4 +1,4 @@
-import { useEffect, useState, useContext } from 'react';
+import { useEffect,  useContext } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { AppContext } from '../App';
 
@@ -10,7 +10,7 @@ function CountDown() {
     if (counter > 0) {
       setTimeout(() => setCounter(counter - 1), 1000);
     }
-  }, [counter]);
+  }, [counter,setCounter]);
 
   return (
     <span>

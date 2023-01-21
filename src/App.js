@@ -1,6 +1,6 @@
 import { useState, createContext } from 'react';
 import './App.css';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import {  Route, Routes } from 'react-router-dom';
 import CountDown from './Components/CountDown';
 import InputForm from './Components/InputForm';
 
