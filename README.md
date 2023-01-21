@@ -38,6 +38,9 @@ $ npm start
 
 ```
 
+## Live Site Link
+https://counting-app.onrender.com/
+
 ## Contributors
 
 - Navee Metta
